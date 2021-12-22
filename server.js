@@ -9,7 +9,7 @@ app.get('/', (req,res) =>{
 app.get('/about.html',(req,res) =>{
     res.sendFile(path.join(__dirname, './pages/about.html'))
 })
-app.get('/contact.html',(req,res) =>{
+app.get('/contact-me.html',(req,res) =>{
     res.sendFile(path.join(__dirname, './pages/contact-me.html'))
 })
 app.get('*', (req,res) =>{
